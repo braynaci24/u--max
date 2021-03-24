@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.background {
+    background-image: url("../images/background.png");
+}
+.header {
+    z-index: 9;
+    background-image: url("../images/background.png");
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.header-button {
+    margin-right: 10px;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-button:first-child {
+    background-color: #fff;
+    color: #2091F9;
+    border-color: #fff;
+}
+.header-button:last-child {
+    background-color: #2187ff;
+    border-color: #fff;
+}
+.header-logo {
+    padding-top: 8px;
+    width: 130px;
+}
+.header-link {
+    color: #fff!important;
+    font-size: 17px;
+    padding-right: 15px!important;
+}
+.enterence {
+    text-align: center!important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding: 62px 0px;
+}
+.title {
+    color: #fff;
+}
+.title-2 {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.title-3 {
+    color: #fff;
+    
+}
+.enterence-image {
+    padding-bottom: 21px;
+}
+
+/* PRODUCT */
+.product {
+    text-align: center!important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.product-images {
+    width: 300px;
+
+}
+.product-button {
+    margin: 30px 0px;
+}
+
+/* BUY NOW */
+
+.image {
+    background: url("../images/finans.png");
+    height: 577px;
+}
+.buynow {
+    padding: 100px 50px;
+}
+.fa-bitcoin {
+    color: #f7931a;
+    font-size: 16px;
+}
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #1e91f8 5%, #1e91f8 100%);
+	background-color:#1e91f8;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+    width: 110px;
+    height: 30px;
+}
+.myButton:hover {
+    color: #fff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
