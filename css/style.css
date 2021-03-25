@@ -13,15 +13,22 @@ body {
 .header-button {
     margin-right: 10px;
     width: 90px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.header-button:first-child {
-    background-color: #fff;
-    color: #2091F9;
+    color: #fff;
+    background: #2187ff;
+    text-decoration: none;
     border-color: #fff;
+    border-radius: 4px;
+}
+.header-button:hover {
+    background-color: #fff;
+    width: 90px;
+}
+.header-button-link {
+    color: #fff;
+    border-color: white;
+}
+.header-button-link:hover {
+    color: #2187ff;
 }
 .header-button:last-child {
     background-color: #2187ff;
@@ -114,4 +121,8 @@ body {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+/* SIGN UP */
+.signup-container {
 }
