@@ -145,3 +145,70 @@ body {
 .footer-size {
     margin-top: 69px;
 }
+
+/* SUBSCRİBE */
+.subscribe {
+    background: url("../images/bg-2.png");
+    padding: 89px 100px;
+}
+.subscribe-title {
+    color: #2091F9;
+}
+.subscribe-input {
+    width: 250px;
+    display: block;
+    margin: 19px auto;
+    
+}
+.subscribe-button {
+    width: 250px;
+    height: 40px;
+    background-image: linear-gradient(to left bottom, #2187ff, #00abff, #00c9ff, #00e0e1, #00f3b9);
+    border-radius: 8px;
+    border: 1px solid #2187ff;
+}
+.text-color {
+    color: #fff;
+    opacity: 0.9;
+}
+.input-container {
+    margin-bottom: 17px;
+}
+.text-padding {
+    padding: 40px 0px;
+}
+.position-container {
+    position: relative;
+}
+.fa-long-arrow-alt-left {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    font-size: 35px;
+    color: white;
+}
+/* CONTACT */
+.contact-container {
+    padding: 80px 80px;
+    background: #252B42;
+}
+.contact-text-container {
+    color: #fff;
+}
+.contact-and-icon {
+    color: #fff;
+}
+.contact-and-icon i {
+    font-size: 30px;
+}
+.contact-text-color {
+    color: #fff;
+}
+.fa-map-marker-alt {
+    padding-top: 50px;
+}
+.contact-padding-p {
+    padding: 10px 0px
+}
