@@ -16,10 +16,10 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </head>
-<div class="container-fluid background">
+<div class="container-fluid background image">
     <div class="row">
-        <div class="col">
-            <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="col header">
+            <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
                   <img class="header-logo" src="images/header-logo.png" alt="">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,18 +36,29 @@
                   </div>
                 </div>
                 <div class="d-flex flex-row">
-                    <a class="header-button" href="signup.html"><button type="button" class="btn header-button-link">Sign Up</button></a>
-                    <a href="login.html"><button type="button " class="btn btn-primary header-button">Login</button></a>
+                    <a href="signup.html"><button type="button " class="btn btn-primary header-button">Sign Up</button></a>
                 </div>  
               </nav>
         </div>
     </div>
     <div class="row">
-        <div class="col product">
-            <h3 class="title-2">Poweful, Simplicity</h3>
-            <p class="title-3">Buy Cryptocurrency Right Now</p>
-            <img class="product-images" src="images/phone-screen.png">
-            <a href="buy-now.html"><button type="button" class="btn btn-primary product-button">Buy Now</button></a>
+        <div class="col my-5 d-flex align-items-center justify-content-center">
+           <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+               <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Sıgn Up</button>
+            </form>
         </div>
     </div>
 </div>
