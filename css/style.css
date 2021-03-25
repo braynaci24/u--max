@@ -122,7 +122,26 @@ body {
 	position:relative;
 	top:1px;
 }
-
-/* SIGN UP */
-.signup-container {
+/* FOOTER */
+.background-footer {
+    background-color: #fff!important;
+}
+.footer-link {
+    color: #0b0e07;
+}
+.fa-twitter-square {
+    color: #1da1f2;
+}
+.fa-facebook-square {
+    color: #0e8ef2;
+}
+.fa-linkedin {
+    color: #0a66c2;
+}
+.footer-icon {
+    font-size: 30px;
+    margin-right: 20px;
+}
+.footer-size {
+    margin-top: 69px;
 }
