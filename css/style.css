@@ -23,6 +23,12 @@ body {
     background-color: #fff;
     width: 90px;
 }
+.header-button-2 {
+    margin-right: 23px;
+}
+.header-button-3 {
+    margin-right: 40px;
+}
 .header-button-link {
     color: #fff;
     border-color: white;
@@ -87,7 +93,7 @@ body {
 
 .image {
     background: url("../images/finans.png");
-    height: 577px;
+    background-position: center;
 }
 .buynow {
     padding: 100px 50px;
@@ -149,7 +155,7 @@ body {
 /* SUBSCRİBE */
 .subscribe {
     background: url("../images/bg-2.png");
-    padding: 89px 100px;
+    padding: 77px 100px;
 }
 .subscribe-title {
     color: #2091F9;
@@ -164,6 +170,7 @@ body {
     width: 250px;
     height: 40px;
     background-image: linear-gradient(to left bottom, #2187ff, #00abff, #00c9ff, #00e0e1, #00f3b9);
+    background-position: center;
     border-radius: 8px;
     border: 1px solid #2187ff;
 }
